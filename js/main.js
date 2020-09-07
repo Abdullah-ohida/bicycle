@@ -62,7 +62,7 @@ const cartArr = [
         id: 1,
         title: `BMX Magic Bike`,
         category: `Preload`,
-        img: `/my-bicycle/asset/imgs/cart-1.jfif`,
+        img: `/imgs/cart-1.jfif`,
         price: 15.99,
         desc: ` Bike Motocross`
     },
@@ -70,7 +70,7 @@ const cartArr = [
         id: 2,
         title: `BMX Stunt`,
         category: `old`,
-        img: `/my-bicycle/asset/imgs/cart-2.jfif`,
+        img: `/imgs/cart-2.jfif`,
         price: 23.5,
         desc: ` Bicycle Motocross`
     },
@@ -78,7 +78,7 @@ const cartArr = [
         id: 3,
         title: `BMX Magic Bike`,
         category: `Preload`,
-        img: `/my-bicycle/asset/imgs/cart-3.jfif`,
+        img: `/imgs/cart-3.jfif`,
         price: 17.09,
         desc: ` Bike Motocross`
     },
@@ -86,7 +86,7 @@ const cartArr = [
         id: 4,
         title: `BMX Stunt`,
         category: `old`,
-        img: `/my-bicycle/asset/imgs/cart-4.jpg`,
+        img: `/imgs/cart-4.jpg`,
         price: 9.55,
         desc: ` Bicycle Motocross`
     },
@@ -94,7 +94,7 @@ const cartArr = [
         id: 5,
         title: `BMX Stunt`,
         category: `old`,
-        img: `/my-bicycle/asset/imgs/cart-5.jfif`,
+        img: `/imgs/cart-5.jfif`,
         price: 12.34,
         desc: ` Bicycle Motocross`
     },
@@ -102,7 +102,7 @@ const cartArr = [
         id: 6,
         title: `BMX Magic Bike`,
         category: `Preload`,
-        img: `/my-bicycle/asset/imgs/cart-6.jfif`,
+        img: `/imgs/cart-6.jfif`,
         price: 13.99,
         desc: ` Bike Motocross`
     },
@@ -110,7 +110,7 @@ const cartArr = [
         id: 7,
         title: `BMX Stunt`,
         category: `old`,
-        img: `/my-bicycle/asset/imgs/cart-7.jfif`,
+        img: `/imgs/cart-7.jfif`,
         price: 3.45,
         desc: ` Bicycle Motocross`
     },
@@ -118,7 +118,7 @@ const cartArr = [
         id: 8,
         title: `BMX Magic Bike`,
         category: `Preload`,
-        img: `/my-bicycle/asset/imgs/cart-8.jpg`,
+        img: `/imgs/cart-8.jpg`,
         price: 14.99,
         desc: ` Bike Motocross`
     },
@@ -126,7 +126,7 @@ const cartArr = [
         id: 9,
         title: `BMX Stunt`,
         category: `old`,
-        img: `/my-bicycle/asset/imgs/vi.jpg`,
+        img: `/imgs/vi.jpg`,
         price: 10.27,
         desc: ` Bicycle Motocross`
     },
@@ -134,7 +134,7 @@ const cartArr = [
         id: 10,
         title: `BMX Magic Bike`,
         category: `Preload`,
-        img: `/my-bicycle/asset/imgs/cart-3.jfif`,
+        img: `/imgs/cart-3.jfif`,
         price: 15.99,
         desc: ` Bike Motocross`
     },
@@ -142,7 +142,7 @@ const cartArr = [
         id: 11,
         title: `BMX Stunt`,
         category: `old`,
-        img: `/my-bicycle/asset/imgs/cart-2.jfif`,
+        img: `/imgs/cart-2.jfif`,
         price: 9.57,
         desc: ` Bicycle Motocross`
     },
@@ -150,7 +150,7 @@ const cartArr = [
         id: 12,
         title: `BMX Magic Bike`,
         category: `Preload`,
-        img: `/my-bicycle/asset/imgs/bike-1.jpg`,
+        img: `/imgs/bike-1.jpg`,
         price: 15.99,
         desc: ` Bike Motocross`
     },
@@ -316,7 +316,7 @@ const viewCart = () => {
         </div>
         <button class="delete-item" onClick="deleteItem(${cart.id})">
         <span class="cartid" style="display: none;">${cart.id}</span>
-            <img src="/my-bicycle/asset/imgs/close.svg" alt="close" class="close">
+            <img src="/imgs/close.svg" alt="close" class="close">
         </button>
     </div>
   `
@@ -367,31 +367,31 @@ console.log(slideBtnLeft, slideBtnRight)
 // const wrapper = document.querySelector('.slide-container');
 const peopleReview = [
     {
-        per: `/my-bicycle/asset/imgs/re-1.jpg`,
+        per: `/imgs/re-1.jpg`,
         text: `Cool and fantastics bicycles. I was spaoilt for choice. Every bicycle on the
         AvidBikers made sense, i just had to settle for one based on the color.`,
         author: `Ismail Abdullah`
     },
     {
-        per: `/my-bicycle/asset/imgs/re-1.jpg`,
+        per: `/imgs/re-1.jpg`,
         text: `and fantastics bicycles. I was spaoilt for choice. Every bicycle on the
         AvidBikers made sense, i just had to settle for one based on the color.`,
         author: `obi chinyere`
     },
     {
-        per: `/my-bicycle/asset/imgs/re-1.jpg`,
+        per: `/imgs/re-1.jpg`,
         text: `and fantastics bicycles. I was spaoilt for choice. Every bicycle on the
         AvidBikers made sense, i just had to settle for one based on the color.`,
         author: `Ismail Ibrahim`
     },
     {
-        per: `/my-bicycle/asset/imgs/re-1.jpg`,
+        per: `/imgs/re-1.jpg`,
         text: `and fantastics bicycles. I was spaoilt for choice. Every bicycle on the
         AvidBikers made sense, i just had to settle for one based on the color.`,
         author: `John doe`
     },
     {
-        per: `/my-bicycle/asset/imgs/re-1.jpg`,
+        per: `/imgs/re-1.jpg`,
         text: `"Cool and fantastics bicycles. I was spaoilt for choice. Every bicycle on the
              AvidBikers made sense, i just had to settle for one based on the color.`,
         author: `charle mark`

@@ -235,10 +235,6 @@ nav {
     color: var(--clr-white);
 }
 
-.cart-none{
-    /* display: none; */
-}
-
 .cart-icon{
   border: none;
   background-color: transparent;
